@@ -7,7 +7,10 @@ class Header extends HTMLElement {
       this.innerHTML = `
 
         <header class="header">
-        <div class="hText><a href="./index.html"><img class="logo" src="./assets/images/logos/greenlogonobackground.png" max-height="30px" max-width="30px"></div><div">Welcome to the world of Super Doobie!</a></div>
+        <div class="hText" a href="https://www.superdoobie.com/index.html">
+        <img class="logo" src="./assets/images/logos/greenlogonobackground.png" max-height="30px" 
+        </div>
+        <div class="slogan">Welcome to the world of Super Doobie!</a></div>
 
         <nav class='header-component'>
 
@@ -21,7 +24,7 @@ class Header extends HTMLElement {
   </div>
 </div>
 
-<div style="padding-left:20px">
+<div>
   <h1></h1>
   <p></p>
   <p></p>

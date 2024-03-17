@@ -20,13 +20,16 @@
   * {box-sizing: border-box}
   body {font-family: Verdana, sans-serif; margin:0}
   .mySlides {display: none}
-  img {vertical-align: middle;}
+  img {vertical-align: middle;
+  }
   
   /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 30px;
+   flex: auto;
+    
   }
   
   /* Next & previous buttons */
@@ -129,9 +132,9 @@
     color:red;
     text-decoration: none;
   }
-  .round {
+  /* .round {
     border-radius: 50%;
-  }
+  } */
 
 
 
@@ -141,7 +144,7 @@
 .container {
   display: flex;
   width: 100%;
-  height: 100vh; /* Adjust the height as needed */
+ /* Adjust the height as needed */
   
 }
 
@@ -215,7 +218,7 @@ video {
 @media screen and (max-width: 890px) {
   .textLinks {
     display: none;
-
+    padding: 10px;
   }
 } 
 
@@ -265,16 +268,15 @@ video {
 
 /* HEADER COMPONENT STYLYING */
 .header-component {
-  text-align: left;
+ text-align: center;
   color: rgb(2, 2, 2);
-  padding: 20px;
+  padding: 5px 5px 75px 5px;
 }
 
 .header a {
   color: red;
   font-family:'Times New Roman', Times, serif;
   font-size: .5em;
-  text-align: center;
 }
 
 .header a:hover {
@@ -283,7 +285,7 @@ video {
 }
 
 .header-right {
-  float: right;
+  float: left;
  text-size-adjust: 0.5em;
   
 
@@ -294,7 +296,7 @@ video {
   } 
 
 .hText {
-  float: right;
+  float: center;
   font-size: large;
   text-align: center;
 }
@@ -306,7 +308,7 @@ video {
   color: #1c7114;
   font-size: .4em;
   font-family: 'Times New Roman', Times, serif;
-}
+  }
 
 /* Controls Page Font Style */
 a {
@@ -337,15 +339,33 @@ p:hover {
   .footerLinks a {
   color: #de1d1d;
   margin: 5px;
-  text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: .7em;
  } 
 
 .social {
   color: #3f1471;
+  align-items: center;
 }
 
 .cover {
   max-width:25%;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.footText {
+  text-align: center;
+}
+
+.comingSoon {
+  max-width: 70%;
+  position: relative;
+} 
+
+.cs {
+  position: absolute;
+ align-items: center;
 }

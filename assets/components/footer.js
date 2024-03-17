@@ -44,10 +44,10 @@ class footer extends HTMLElement {
           <ul class="footerLinks">
           <div>
           <ui> 
-          <a href="./index.html">Made with ❤️ & <img src="./assets/images/logos/cannabis.png"  text-align: center; class="leaf"> by SuperDoobie.com<a href="https://www.superdoobie.com/index.html">
+          <a href="./index.html">Made with ❤️ & <img src="./assets/images/logos/cannabis.png"  text-align: center; class="leaf"> by SuperDoobie.com<a href="https://www.superdoobie.com/index.html"><a class="footerLinks">superdoobie.com copyright 2024 All Rights Reserved</a>
           </ui>
-<div>
-          <a class="footerLinks">superdoobie.com copyright 2024 All Rights Reserved</a>
+          <ui>
+          
         </div></h1>
       </div>
 <div>
