@@ -68,10 +68,10 @@
  
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
+  /* @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
-  
+   */
   /* Privacy and Policy Page Styling */ 
   
   .privacy {
@@ -143,10 +143,6 @@
   .round {
     border-radius: 50%;
   }
-
-
-
- 
 
  /* Container holding the Video Clip */
 .container {
@@ -242,13 +238,13 @@ video {
   max-height: 200px;
   float: left;
 }
-  @media screen and (max-width: 890px) {
+  /* @media screen and (max-width: 890px) {
     .logo {
       display: none;
   
     }
 
-}
+} */
 
 /* MARIJUANA LEAF IMAGE IN FOOTER TEXT */
 .leaf {
@@ -318,6 +314,14 @@ video {
   font-family: 'Times New Roman', Times, serif;
   }
 
+  .nav-component {
+    text-align: center;
+    color: #1c7114;
+    font-size: .4em;
+    font-family: 'Times New Roman', Times, serif;
+    }
+  
+
 /* Controls Page Font Style */
 a {
   font-weight: 700;
@@ -368,12 +372,11 @@ p:hover {
   text-align: center;
 }
 
-.comingSoon {
-  max-width: 70%;
-  position: relative;
+.cs {
+float: left;
 } 
 
 .cs {
   position: absolute;
- align-items: center;
+ align-items: left;
 }
