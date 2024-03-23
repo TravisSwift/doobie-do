@@ -12,6 +12,7 @@ class footer extends HTMLElement {
         <style>
         * {
           box-sizing: border-box;
+          text-decoration: none;  
         }
         
         /* Create three equal columns that floats next to each other */
@@ -40,12 +41,13 @@ class footer extends HTMLElement {
 
         </style>  
         
-          <nav class="footer-component">        
+          <nav class="footer-component">  
+
+          
           <ul class="footerLinks">
           <div>
-          <ui> 
-          <a href="./index.html">Made with ❤️ & <img src="./assets/images/logos/cannabis.png"  text-align: center; class="leaf"> by SuperDoobie.com<a href="https://www.superdoobie.com/index.html"><a class="footerLinks">superdoobie.com copyright 2024 All Rights Reserved</a>
-          </ui>
+          <a>Made with ❤️ & <img src="./assets/images/logos/cannabis.png"  text-align: center; class="leaf"> by SuperDoobie.com<a class="footerLinks" text-align: center;>superdoobie.com copyright 2024 All Rights Reserved</a></div>
+
           <ui>
           
         </div></h1>
@@ -54,7 +56,7 @@ class footer extends HTMLElement {
           <ul>
           <div class="footer">
           <ui></ui>
-          <ui><a href="./privacy-policy.html" target="_blank" class="about"> <i class="fa fa-question-circle" aria-hidden="true"></i></i></a></ui>
+          <ui><a href="./about.html" target="_blank" class="about"> <i class="fa fa-question-circle" aria-hidden="true"></i></i></a></ui>
           <ui><a href="https://twitter.com/Super_Doobie" target="_blank" class="twitter"> <i class="fa fa-twitter"></i></a></ui>
           <ui><a href="https://www.instagram.com/superdoobie/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></ui>
           <ui> <a href="https://www.youtube.com/@superdoobie/featured" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></ui>

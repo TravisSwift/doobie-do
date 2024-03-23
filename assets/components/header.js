@@ -15,21 +15,11 @@ class Header extends HTMLElement {
         <nav class='header-component'>
 
   <div class="header-right">
-  <a class="active" href="./index.html">Home</a>
-    <a class="active" href="#home">Comics</a>
-    <a href="#contact">Entertainment</a>
-    <a href="#about">Gallery</a>
-    <a href="https://fun-fun-shop.printify.me/products" target="blank">Shop</a>
-    <a href="#about">Community</a>
+  <a class="active" href="./index.html">Home</a><a href="https://fun-fun-shop.printify.me/products" target="blank">Shop</a>
+  <a href="./comingsoon.html" class="image-link">Coming Soon!</a>
   </div>
 </div>
-
-<div>
-  <h1></h1>
-  <p></p>
-  <p></p>
-</div>
-           
+          
           </nav>
         </header>
       `;
